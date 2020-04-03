@@ -6,12 +6,12 @@ require 'pure_ruby_marshal/version'
 Gem::Specification.new do |spec|
   spec.name          = "pure_ruby_marshal"
   spec.version       = PureRubyMarshal::VERSION
-  spec.authors       = ["Ilya Bylich"]
+  spec.authors       = ["Ilya Bylich","Michael Stangel"]
   spec.email         = ["ibylich@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Implementation of Marshal.dump and .load in Ruby}
+  spec.description   = %q{Implementation of Marshal.dump and .load in Ruby}
+  spec.homepage      = "https://ilyabylich.svbtle.com/ruby-marshalling-from-a-to-z"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
